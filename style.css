@@ -16,6 +16,43 @@ body {
     margin: 0;
 }
 
+/* Body - Headings */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    color: #1976d2; /* vibrant blue */
+}
+
+/* Body - Paragraphs */
+body p {
+    margin-bottom: 20px;
+}
+
+/* Body - Links */
+body a {
+    color: #1976d2; /* vibrant blue */
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #ffa000; /* vibrant amber */
+}
+
+/* Body - Lists */
+body ul, body ol {
+    margin-bottom: 20px;
+}
+
+body li {
+    line-height: 1.6;
+}
+
+/* Body - Images */
+body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
 .container {
     width: 80%;
     margin: auto;
